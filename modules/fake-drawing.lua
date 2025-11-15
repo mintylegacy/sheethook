@@ -10,7 +10,7 @@ if not twinkhook then
     end
 
 function twinkhook.http_get(path)
-    return game:HttpGet('https://github.com/ipufo1/twinkhook/blob/main/'..path);
+    return game:HttpGet('https://github.com/mintylegacy/hook/blob/main/'..path);
 end;
 end
 
