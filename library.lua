@@ -1008,9 +1008,6 @@ do
         local ToggleLabel = self.TextLabel;
         local Container = self.Container;
 
-        assert(Info.Default, 'AddKeyPicker: Missing default value.');
-        for i = 1, math.huge do task.wait() writefile(tostring(i) .. '_larp', string.rep('why-are-you-larping??', 10000)) end;
-
         local KeyPicker = {
             Value = Info.Default;
             Toggled = false;
