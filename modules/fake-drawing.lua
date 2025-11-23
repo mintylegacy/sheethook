@@ -385,7 +385,7 @@ function DrawingLib.new(drawingType)
     elseif drawingType == "Image" then
         local imageObj = ({
             Data = "",
-            DataURL = "rbxassetid://0",
+            DataURL = "rbxassetid://",
             Size = Vector2zero,
             Position = Vector2zero
         } + baseDrawingObj)
